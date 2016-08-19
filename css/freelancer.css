@@ -51,11 +51,11 @@ hr.star-primary:after {
   padding: 0 0.25em;
 }
 hr.star-light {
-  border-color: white;
+  border-color: #ff3300;
 }
 hr.star-light:after {
   background-color: #2C3E50;
-  color: white;
+  color: #ff3300;
 }
 hr.star-primary {
   border-color: #2C3E50;
@@ -80,6 +80,7 @@ header img {
   display: block;
   margin: 0 auto 20px;
   border: 5px solid white;
+  border-radius: 50%;
 }
 header .intro-text .name {
   display: block;
@@ -105,7 +106,7 @@ header .intro-text .skills {
   }
 }
 .navbar-custom {
-  background: #d3d3d3;
+  background: #808080;
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 700;
@@ -130,7 +131,7 @@ header .intro-text .skills {
   color: white;
 }
 .navbar-custom .navbar-nav li a:hover {
-  color: #18BC9C;
+  color: #2C3E50;
   outline: none;
 }
 .navbar-custom .navbar-nav li a:focus,
@@ -209,7 +210,7 @@ section.success {
   margin: 0 auto;
 }
 #portfolio .portfolio-item .portfolio-link .caption {
-  background: rgba(24, 188, 156, 0.9);
+  background: rgb(44, 62, 80);
   position: absolute;
   width: 100%;
   height: 100%;
@@ -303,7 +304,7 @@ footer h3 {
 }
 footer .footer-above {
   padding-top: 50px;
-  background-color: #2C3E50;
+  background-color: #808080;
 }
 footer .footer-col {
   margin-bottom: 50px;
@@ -409,7 +410,7 @@ fieldset[disabled] .btn-success.active {
   border-color: #2C3E50;
 }
 .btn-success .badge {
-  color: #18BC9C;
+  color: #2C3E50;
   background-color: white;
 }
 .btn-social {
